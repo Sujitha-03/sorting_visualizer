@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>auroraSORT | Merge Sort</title>
+  <link rel="shortcut icon" href="favicon1.jpg">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Garamond, serif;
+      text-align: center;
+      background-image:url("bg5.jpg");
+      background-size:cover;
+    }
+
+    h1 {
+      font-family: Garamond, serif;
+      font-size: 60px;
+      color: #246c6c;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+
+    .container {
+      width: 700px;
+      margin: 0 auto;
+    }
+
+    .definition {
+        color:#bcf9f9;
+        font-size: 20px;
+      padding: 20px;
+    }
+
+    .algorithm {
+        color:#fff;
+        font-size: 20px;
+      padding: 20px;
+    }
+    .button{
+      display: inline-block;
+      padding: 12px 24px;
+      font-family: Garamond, serif;
+      font-size: 20px;
+      border: none;
+      border-radius: 30px;
+      color: #fff;
+      background: linear-gradient(45deg, #bcf9f9, #246c6c);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+    .button:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Merge Sort</h1>
+
+    <div class="definition">
+      <p>Merge sort is a sorting algorithm that works by dividing the unsorted array into two halves, sorting each half recursively, and then merging the two sorted halves together. This process is repeated until the entire array is sorted.</p>
+    </div>
+
+    <div class="algorithm">
+      <p>Here is the algorithm for selection sort:</p>
+      <ol>
+        <li>Divide: Divide the unsorted array into two halves.To divide the unsorted array into two halves, we can use the following code:<br>
+            let mid = arr.length / 2;<br>
+            let left = arr.slice(0, mid);<br>
+            let right = arr.slice(mid);<br>
+            This code will create two new arrays, left and right, that contain the left and right halves of the original array, respectively.</li>
+        <li>Sort: Recursively sort each half of the array.</li>
+        <li>Merge: Merge the two sorted halves of the array together.</li>
+      </ol>
+    </div>
+
+    <a href="home.html" class="button">Go Back to Home Page</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>auroraSORT | Selection Sort</title>
+  <link rel="shortcut icon" href="favicon1.jpg">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Garamond, serif;
+      text-align: center;
+      background-image:url("bg5.jpg");
+      background-size:cover;
+    }
+
+    h1 {
+      font-family: Garamond, serif;
+      font-size: 60px;
+      color: #246c6c;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+
+    .container {
+      width: 700px;
+      margin: 0 auto;
+    }
+
+    .definition {
+        color:#bcf9f9;
+        font-size: 20px;
+      padding: 20px;
+    }
+
+    .algorithm {
+        color:#fff;
+        font-size: 20px;
+      padding: 20px;
+    }
+    .button{
+      display: inline-block;
+      padding: 12px 24px;
+      font-family: Garamond, serif;
+      font-size: 20px;
+      border: none;
+      border-radius: 30px;
+      color: #fff;
+      background: linear-gradient(45deg, #bcf9f9, #246c6c);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+    .button:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Selection Sort</h1>
+
+    <div class="definition">
+      <p>Selection sort is a sorting algorithm that works by repeatedly finding the minimum element (or maximum element) in an unsorted array and swapping it with the first element of the unsorted array. This process is repeated until the entire array is sorted.</p>
+    </div>
+
+    <div class="algorithm">
+      <p>Here is the algorithm for selection sort:</p>
+      <ol>
+        <li>Initialize the variable `minIndex` to 0. This represents the index of the smallest element in the array.</li>
+        <li>Iterate through the array, starting at index 1. For each iteration, compare the element at the current index to the element at `minIndex`. If the element at the current index is smaller than the element at `minIndex`, then update `minIndex` to the current index.</li>
+        <li>Once we have iterated through the entire array, the variable `minIndex` will contain the index of the smallest element in the array. We can then swap the element at `minIndex` with the element at the first index of the array. This will sort the first element of the array in ascending order.</li>
+        <li>Repeat steps 2 and 3 for the remaining elements in the array. Each time we iterate through the array, we will swap the smallest element with the element at the first index. This will continue until the entire array is sorted.</li>
+      </ol>
+    </div>
+
+    <a href="home.html" class="button">Go Back to Home Page</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+if bypass==0
+cur_samp=[];
+[~,co]=size[message_ids];
+s='id_data_';
+cs='cs_Mismatch_ID';
+c=repmat(s,[co,1]);
+css=repmat(cs,[co,1]);
+s1='=[];';s
+c1=repmat(s1,[co,1]);
+create_cmd=[c strjust(num2str(message_ids'),'left')cl];
+create_cmdl=[css strjust(num2str(message_ids'),'left')cl];

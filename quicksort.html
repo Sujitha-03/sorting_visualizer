@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>auroraSORT | Quick Sort</title>
+  <link rel="shortcut icon" href="favicon1.jpg">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Garamond, serif;
+      text-align: center;
+      background-image:url("bg5.jpg");
+      background-size:cover;
+    }
+
+    h1 {
+      font-family: Garamond, serif;
+      font-size: 60px;
+      color: #246c6c;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+
+    .container {
+      width: 700px;
+      margin: 0 auto;
+    }
+
+    .definition {
+        color:#bcf9f9;
+        font-size: 20px;
+      padding: 20px;
+    }
+
+    .algorithm {
+        color:#fff;
+        font-size: 20px;
+      padding: 20px;
+    }
+    .button{
+      display: inline-block;
+      padding: 12px 24px;
+      font-family: Garamond, serif;
+      font-size: 20px;
+      border: none;
+      border-radius: 30px;
+      color: #fff;
+      background: linear-gradient(45deg, #bcf9f9, #246c6c);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+    .button:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Quick Sort</h1>
+
+    <div class="definition">
+      <p>Quick sort is a sorting algorithm that works by partitioning the unsorted 
+        array around a pivot element. The pivot element is chosen randomly or by some other means. 
+        The array is then partitioned into two subarrays: one subarray containing all of the elements 
+        smaller than the pivot element, and the other subarray containing all of the elements larger 
+        than the pivot element. The quick sort algorithm is then recursively applied to each of the two subarrays.</p>
+    </div>
+
+    <div class="algorithm">
+      <p>Here is the algorithm for selection sort:</p>
+      <ol>
+        <li>Choose a pivot element: Choose a pivot element randomly or by some other means.</li>
+        <li>Partition the array around the pivot element: Iterate through the array, comparing each element to the pivot element. 
+          If the element is smaller than the pivot element, then swap the element with the first element in the subarray of elements 
+          smaller than the pivot element.</li>
+        <li>Recursively sort the two subarrays: Recursively apply the quick sort algorithm to the subarray of elements smaller than the pivot element and the subarray of elements larger than the pivot element.</li>
+        <li>Repeat steps 1-3 until the entire array is sorted.</li>
+      </ol>
+    </div>
+
+    <a href="home.html" class="button">Go Back to Home Page</a>
+  </div>
+</body>
+</html>
